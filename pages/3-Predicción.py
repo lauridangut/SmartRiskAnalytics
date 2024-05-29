@@ -9,14 +9,6 @@ import pandas as pd
 import streamlit as st
 import random
 import sys
-""" from pathlib import Path
-
-# Get the project root directory
-project_root = Path(__file__).parent.parent
-
-# Add the project root directory to the system path
-sys.path.append(str(project_root)) """
-
 
 st.set_page_config(
     page_title="Home",
@@ -162,10 +154,10 @@ dict_dataset = {
 dataset = pd.DataFrame([dict_dataset])
 
 # Print del df default
-st.dataframe(dataset)
+#st.dataframe(dataset)
 
 # Página para el formulario
-st.subheader("Rellene el formulario completo para obtener la predicción")
+st.subheader("Complete los datos para predecir")
 
 # 1
 auto_propio = st.radio("¿Cuenta con vehículo propio?", ("Si", "No"))
@@ -219,7 +211,7 @@ if not telefono_casa2:
     dataset["telefono_casa2"] = telefono_casa2_valor
 # 8
 reg_residencia_diferente = st.radio(
-    "La región de residencia entregada, ¿Es distinta de donde vive?", ("Si", "No"))
+    "La región de residencia entregada, ¿es distinta de donde vive?", ("Si", "No"))
 reg_residencia_diferente_valor = True if reg_residencia_diferente == "Si" else False
 if not reg_residencia_diferente:
     st.warning("Por favor, elija una opción.")
@@ -227,7 +219,7 @@ dataset["reg_residencia_diferente"] = reg_residencia_diferente_valor
 
 # 9
 reg_trabajo_diferente = st.radio(
-    "La región de residencia del trabajo entregada, ¿Es distinta de donde vive?", ("Si", "No"))
+    "La región de residencia del trabajo entregada, ¿es distinta de donde vive?", ("Si", "No"))
 reg_trabajo_diferente_valor = True if reg_trabajo_diferente == "Si" else False
 if not reg_trabajo_diferente:
     st.warning("Por favor, elija una opción.")
@@ -235,7 +227,7 @@ dataset["reg_trabajo_diferente"] = reg_trabajo_diferente_valor
 
 # 10
 city_residencia_diferente = st.radio(
-    "¿La ciudad de residencia entregada es distinta de donde vive?", ("Si", "No"))
+    "La ciudad de residencia entregada, ¿es distinta de donde vive?", ("Si", "No"))
 city_residencia_diferente_valor = True if city_residencia_diferente == "Si" else False
 if not city_residencia_diferente:
     st.warning("Por favor, elija una opción.")
@@ -243,7 +235,7 @@ dataset["city_residencia_diferente"] = city_residencia_diferente_valor
 
 # 11
 city_trabajo_diferente = st.radio(
-    "¿La ciudad de trabajo es distinta donde vive?", ("Si", "No"))
+    "La ciudad de trabajo, ¿es distinta de donde vive?", ("Si", "No"))
 city_trabajo_diferente_valor = True if city_trabajo_diferente == "Si" else False
 if not city_trabajo_diferente:
     st.warning("Por favor, elija una opción.")
@@ -251,7 +243,7 @@ dataset["city_trabajo_diferente"] = city_trabajo_diferente_valor
 
 # 12
 live_trabajo_diferente = st.radio(
-    "¿La dirección de trabajo es distinta a donde vive?", ("Si", "No"))
+    "La dirección de trabajo, ¿es distinta de donde vive?", ("Si", "No"))
 live_trabajo_diferente_valor = True if live_trabajo_diferente == "Si" else False
 if not live_trabajo_diferente:
     st.warning("Por favor, elija una opción.")
@@ -260,7 +252,7 @@ dataset["live_trabajo_diferente"] = live_trabajo_diferente_valor
 # 13 y 14
 # Tiene: Cash loans y Revolving loans
 tipo_contrato = st.selectbox(
-    "¿Qué tipo de prestamo solicita?", ("Préstamos en efectivo", "Préstamos renovables"))
+    "Tipo de préstamo", ("Préstamos en efectivo", "Préstamos renovables"))
 if not tipo_contrato:
     st.warning("Por favor, elija una opción.")
 
@@ -270,7 +262,7 @@ dataset[clave] = True
 # 15, 16 y 17
 # Tiene: Pensioner, Unemployed y Working
 estatus_laboral = st.selectbox(
-    "¿Cuál es su situación laboral actual?", ('Empleado', 'Jubilado', 'Desempleado'))
+    "Situación laboral actual", ('Empleado', 'Jubilado', 'Desempleado'))
 if not estatus_laboral:
     st.warning("Por favor, elija una opción.")
 estatus_laboral_true = estatus_laboral_to_english[estatus_laboral]
@@ -279,7 +271,7 @@ dataset[clave] = True
 
 # 18, 19, 20, 21 y 22
 # Tiene: Academic degree, Higher education, Incomplete higher, Lower secondary, Secondary/ secondary special
-nivel_educacion = st.selectbox("¿Cuál es su nivel de educación?", ('Secundaria / secundaria especial',
+nivel_educacion = st.selectbox("Nivel de educación", ('Secundaria / secundaria especial',
                                'Educación superior', 'Superior incompleta', 'Secundaria inferior', 'Titulación académica'))
 if not nivel_educacion:
     st.warning("Por favor, elija una opción.")
@@ -288,7 +280,7 @@ clave = f'nivel_educacion_{nivel_educacion_true}'
 dataset[clave] = True
 
 # 23, 24, 25 y 26
-estado_civil = st.selectbox("¿Cuál es su estado civil?",
+estado_civil = st.selectbox("Estado civil",
                             ('Soltero / no casado', 'Casado', 'Viudo', 'Separado'))
 if not estado_civil:
     st.warning("Por favor, elija una opción.")
@@ -297,7 +289,7 @@ clave = f'estado_civil_{estado_civil_true}'
 dataset[clave] = True
 
 # 27, 28, 29 y 30
-forma_habitar = st.selectbox("¿En qué tipo de residencia habita?", ("Casa/apartamento",
+forma_habitar = st.selectbox("Tipo de residencia", ("Casa/apartamento",
                              "Apartamento alquilado", "Con los padres", "Oficina/Apartamento comercial"))
 if not forma_habitar:
     st.warning("Por favor, elija una opción.")
@@ -306,7 +298,7 @@ clave = f'forma_habitar_{forma_habitar_true}'
 dataset[clave] = True
 
 # 31, 32, 33, 34, 35 y 36
-ocupacion = st.selectbox("¿Qué tipo de trabajo tiene?", ('Obreros', 'Personal de base',
+ocupacion = st.selectbox("Tipo de trabajo", ('Obreros', 'Personal de base',
                          'Otro', 'Directivos', 'Conductores', 'Personal de ventas'))
 if not ocupacion:
     st.warning("Por favor, elija una opción.")
@@ -315,7 +307,7 @@ clave = f'ocupacion_{ocupacion_true}'
 dataset[clave] = True
 
 # 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48 y 49
-tipo_organizacion_trabajo = st.selectbox("¿En qué área trabaja?", ('Educación', 'Negocios', 'Otro', 'Construcción', 'Medicina',
+tipo_organizacion_trabajo = st.selectbox("Área de trabajo", ('Educación', 'Negocios', 'Otro', 'Construcción', 'Medicina',
                                          'Autónomo', 'Transporte', 'Bienes raíces', 'Comercio', 'Industria', 'Fuerzas Armadas', 'Finanzas/Negocios', 'Gobierno'))
 if not tipo_organizacion_trabajo:
     st.warning("Por favor, elija una opción.")
@@ -334,13 +326,13 @@ clave = f'tipo_cuenta_bancaria_{tipo_cuenta_bancaria_true}'
 dataset[clave] = True
 
 # 53
-monto_credito = st.number_input("¿Cuál es el monto del crédito que solicita?")
+monto_credito = st.number_input("Monto del crédito solicitado")
 dataset["monto_credito"] = monto_credito
 if not monto_credito:
     st.warning("Por favor, un monto valido.")
 
 # 54
-edad_cliente = st.number_input("¿Cuál es su edad?")
+edad_cliente = st.number_input("Edad")
 dataset["edad_cliente"] = edad_cliente
 if not monto_credito:
     st.warning("Por favor, indique su edad.")
@@ -354,7 +346,7 @@ if not monto_credito:
 
 # 56
 obs_30_circulo_social = st.number_input(
-    "¿Cuenta con personas dentro de su círculo social con deudas vigentes? Si cuenta, escriba la cantidad. Caso contrario, escriba 0.")
+    "¿Cuenta con personas dentro de su círculo social con deudas vigentes? Si cuenta, escriba la cantidad. En caso contrario, escriba 0.")
 dataset["obs_30_circulo_social"] = obs_30_circulo_social
 if not obs_30_circulo_social:
     st.warning(
@@ -369,7 +361,7 @@ if not obs_30_circulo_social:
         "Por favor, indique la cantidad de solicitudes de crédito en el último año.")
 
 # 58
-n_hijos = st.number_input("¿Cuántos hijos tiene?")
+n_hijos = st.number_input("Cantidad de hijos")
 dataset["n_hijos"] = n_hijos
 if not obs_30_circulo_social:
     st.warning("Por favor, indique la cantidad de hijos que tiene.")
@@ -405,16 +397,13 @@ else:
     st.warning("Por favor, completa todos los campos obligatorios.")
 
 # Salida del dataset luego del formulario
-st.dataframe(dataset)
+#st.dataframe(dataset)
 
 # Instanciamos el modelo
 
 # Opcion 1
-df = pd.read_csv(
-    "C:/Users/Acer/Documents/Repositorios_Github/SmartRisk_NC/data/csv/df_concat_a.csv")
-# Cargamos el datasetpip 2
-# df = pd.read_csv("../../data/csv/df_concat_a.csv")
-# df = df.drop(columns="Unnamed: 0")
+df = pd.read_csv("data/df_concat_a.csv")
+df = df.drop(columns="Unnamed: 0")
 
 # Oversampling
 smote = SMOTE(random_state=16)
@@ -443,7 +432,7 @@ new_row_scaled = sc.transform(dataset)
 y_pred_new = reg.predict(new_row_scaled)
 
 # Printeamos el resultado previo
-st.write(y_pred_new)
+#st.write(y_pred_new)
 
 # Conectamos la predicción al botón
 
@@ -453,9 +442,9 @@ def main():
         prediccion = y_pred_new
 
         if prediccion == 0:
-            st.write("Cliente no riesgoso, aprobar solicitud.")
+            st.write("Cliente no riesgoso, APROBAR la solicitud.")
         else:
-            st.write("Cliente RIESGOSO !!, no aprobar solicitud.")
+            st.write("Cliente riesgoso, NO APROBAR la solicitud.")
 
         st.write(f"Predicción: {prediccion}")
 
