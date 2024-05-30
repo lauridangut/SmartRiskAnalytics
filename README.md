@@ -33,7 +33,8 @@ Nuestro enfoque se basa en la metodología CRISP-DM (Cross-Industry Standard Pro
 - Identificamos las variables críticas para el negocio que impactan en la predicción de riesgos de incumplimiento de pago. Además, analizamos cuidadosamente qué variables podrían introducir sesgo en el modelo para garantizar la imparcialidad y equidad en las decisiones predictivas.
 
 2. **Data Understanding:** 
-- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: (https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)
+- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: [![Kaggle](https://www.kaggle.com/static/images/site-logo.png?raw=true&v=4&s=200)](https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)
+
 - Realizamos un análisis exhaustivo de las variables relevantes para el objetivo del proyecto, extrayendo información clave a través de técnicas de análisis descriptivo.
 
 3. **Data preparation:** 
@@ -58,27 +59,27 @@ La metodología CRISP-DM proporciona un marco estructurado y sistemático para e
 
 Contribuyeron a este proyecto:
 
-- **Gustavo Cevallos** (Data Analyst) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavocevallos) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavocevallosp)
+- **Gustavo Cevallos** (Data Analyst)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavocevallos) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavocevallosp)
 
     - Análisis exploratorio de datos.
     - Desarrollo de dashboard con visualizaciones interactivas.
     - Elaboración de informes y documentación técnica.
 
-- **Laura Gutierrez** (Data Scientist) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lauridangut) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauridangut)
+- **Laura Gutierrez** (Data Scientist)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lauridangut) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauridangut)
 
     - Análisis exploratorio de datos y preprocesamiento.
     - Análisis estadístico de variables numéricas.
     - Investigación y desarrollo de algoritmos de machine learning.
     - Desarrollo y despliegue de aplicación web.
 
-- **Giuseppe Navarro Marín** (Data Scientist) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gnavarromarin) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gnavarromarin)
+- **Giuseppe Navarro Marín** (Data Scientist)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gnavarromarin) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gnavarromarin)
 
     - Diseño de estrategia de análisis predictivo.
     - Análisis exploratorio de datos y preprocesamiento
     - Análisis estadístico de variables categóricas.
     - Investigación y desarrollo de algoritmos de machine learning.
 
-- **Joaquin Vásquez Calizaya** (Software Developer) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imjowend) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaquin-vasquez-calizaya)
+- **Joaquin Vásquez Calizaya** (Software Developer)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imjowend) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaquin-vasquez-calizaya)
 
     - Desarrollo de la infraestructura de software y herramientas de automatización.
     - Implementación de integraciones externas y pruebas de integración.
