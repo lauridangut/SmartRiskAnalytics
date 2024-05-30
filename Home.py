@@ -10,4 +10,8 @@ st.sidebar.image("img/Logo_completo.png", width=200)
 st.header("SmartRisk Analytics")
 st.subheader("Evalúa el riesgo crediticio de manera inteligente. ")
 
-st.write("Nuestra aplicación te ofrece un análisis predictivo detallado para determinar la calificación de clientes de acuerdo al riesgo de incumplimiento de pago al solicitar préstamos. Obtén información clave en tiempo real para tomar decisiones financieras informadas y seguras. ¡Bienvenido a una nueva era en la gestión de riesgos financieros!")
+st.write("Nuestra aplicación ofrece un análisis predictivo detallado para determinar la calificación de clientes de acuerdo al riesgo de incumplimiento de pago al solicitar préstamos.")
+
+st.write("Obtén información clave en tiempo real para tomar decisiones financieras informadas y seguras.") 
+
+st.subheader("¡Bienvenido a una nueva era en la gestión de riesgos financieros!")

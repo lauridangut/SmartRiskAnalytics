@@ -1,5 +1,5 @@
 # SmartRisk: Aplicación web de detección de riesgo de incumplimiento de pago, en clientes que postulan a créditos.
-
+![banner](/img/banner.png)
 ### Industria o Rubro: Fintech
 
 En un mundo empresarial cada vez más dinámico y competitivo, identificar y mitigar los riesgos financieros es crucial para mantener la estabilidad y el crecimiento de tu empresa. Por ésto, hemos desarrollado una aplicación interactiva que utiliza de base algoritmos de aprendizaje supervisado previamente entrenados para detectar de forma rápida y precisa a los clientes que representan un riesgo potencial para tu negocio de créditos. 
@@ -33,8 +33,7 @@ Nuestro enfoque se basa en la metodología CRISP-DM (Cross-Industry Standard Pro
 - Identificamos las variables críticas para el negocio que impactan en la predicción de riesgos de incumplimiento de pago. Además, analizamos cuidadosamente qué variables podrían introducir sesgo en el modelo para garantizar la imparcialidad y equidad en las decisiones predictivas.
 
 2. **Data Understanding:** 
-- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: [![Kaggle](https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)]
-
+- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: [Kaggle Dataset](https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)
 
 - Realizamos un análisis exhaustivo de las variables relevantes para el objetivo del proyecto, extrayendo información clave a través de técnicas de análisis descriptivo.
 
