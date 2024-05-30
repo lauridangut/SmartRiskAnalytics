@@ -18,9 +18,7 @@ En un mundo empresarial cada vez más dinámico y competitivo, identificar y mit
 
 Para utilizar nuestra aplicación, simplemente sigue estos pasos:
 
-1. Ingresa al link: <a href="[SmartRisk](https://smartriskanalytics.streamlit.app/)">
-  <img src="img/Logo_completo.png" alt="SmartRisk app" style="width: 150px; height: 50px;">
-</a>
+1. Ingresa al link: [![SmartRisk app](img/Logo_completo.png)](https://smartriskanalytics.streamlit.app/)
 2. Dirígete a la página de análisis en la barra lateral para visualizar el dashboard.
 3. Ingresa a la página de predicción y llena el formulario para evaluar un nuevo cliente.
 
