@@ -3,12 +3,12 @@ import pandas as pd
 import pickle
 
 # Cargar el modelo de regresión logística
-model_path = 'modelo_logistico.pkl'  # Asegúrate de que el archivo esté en el directorio correcto
+model_path = 'model/modelo_logistico.pkl'  
 with open(model_path, 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Cargar el codificador OneHotEncoder utilizado durante el entrenamiento
-encoder_path = 'encoder.pkl'  # Asegúrate de que el archivo esté en el directorio correcto
+encoder_path = 'model/encoder.pkl' 
 with open(encoder_path, 'rb') as encoder_file:
     encoder = pickle.load(encoder_file)
 
