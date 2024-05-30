@@ -18,7 +18,9 @@ En un mundo empresarial cada vez más dinámico y competitivo, identificar y mit
 
 Para utilizar nuestra aplicación, simplemente sigue estos pasos:
 
-1. Ingresa al link: (https://....)
+1. Ingresa al link: <a href="[SmartRisk](https://smartriskanalytics.streamlit.app/)">
+  <img src="img/Logo_completo.png" alt="SmartRisk app" style="width: 150px; height: 50px;">
+</a>
 2. Dirígete a la página de análisis en la barra lateral para visualizar el dashboard.
 3. Ingresa a la página de predicción y llena el formulario para evaluar un nuevo cliente.
 
@@ -58,23 +60,28 @@ La metodología CRISP-DM proporciona un marco estructurado y sistemático para e
 
 Contribuyeron a este proyecto:
 
-- **Gustavo Cevallos** (Data Analyst) - [Linkedin](https://www.linkedin.com/in/gustavocevallosp/). [Github](https://github.com/gustavocevallos)
+- **Gustavo Cevallos** (Data Analyst) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavocevallos) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavocevallosp)
+
     - Análisis exploratorio de datos.
     - Desarrollo de dashboard con visualizaciones interactivas.
     - Elaboración de informes y documentación técnica.
 
-- **Laura Gutierrez** (Data Scientist) - [Linkedin](https://www.linkedin.com/in/lauridangut/). [Github](https://github.com/lauridangut)
+- **Laura Gutierrez** (Data Scientist) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lauridangut) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauridangut)
+
     - Análisis exploratorio de datos y preprocesamiento.
     - Análisis estadístico de variables numéricas.
     - Investigación y desarrollo de algoritmos de machine learning.
+    - Desarrollo y despliegue de aplicación web.
 
-- **Giuseppe Navarro Marín** (Data Scientist) - [Linkedin](https://www.linkedin.com/in/gnavarromarin/). [Github](https://github.com/gnavarromarin)
+- **Giuseppe Navarro Marín** (Data Scientist) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gnavarromarin) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gnavarromarin)
+
     - Diseño de estrategia de análisis predictivo.
     - Análisis exploratorio de datos y preprocesamiento
     - Análisis estadístico de variables categóricas.
     - Investigación y desarrollo de algoritmos de machine learning.
 
-- **Joaquin Vásquez Calizaya** (Software Developer) - [Linkedin](https://www.linkedin.com/in/joaquin-vasquez-calizaya/). [Github](https://github.com/imjowend)
+- **Joaquin Vásquez Calizaya** (Software Developer) - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imjowend) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaquin-vasquez-calizaya)
+
     - Desarrollo de la infraestructura de software y herramientas de automatización.
     - Implementación de integraciones externas y pruebas de integración.
 
