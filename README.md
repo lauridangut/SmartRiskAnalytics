@@ -33,7 +33,8 @@ Nuestro enfoque se basa en la metodología CRISP-DM (Cross-Industry Standard Pro
 - Identificamos las variables críticas para el negocio que impactan en la predicción de riesgos de incumplimiento de pago. Además, analizamos cuidadosamente qué variables podrían introducir sesgo en el modelo para garantizar la imparcialidad y equidad en las decisiones predictivas.
 
 2. **Data Understanding:** 
-- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: [![Kaggle](https://www.kaggle.com/static/images/site-logo.png?raw=true&v=4&s=200)](https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)
+- Adquirimos el conjunto de datos de Kaggle, una plataforma reconocida por sus datos de alta calidad y diversidad. Se puede encontrar en el siguiente enlace: [![Kaggle](https://www.kaggle.com/static/images/site-logo.png?raw=true&v=4&s=50)](https://www.kaggle.com/datasets/youngdaniel/loan-dataset/data?select=HC_DATA_description.txt)
+
 
 - Realizamos un análisis exhaustivo de las variables relevantes para el objetivo del proyecto, extrayendo información clave a través de técnicas de análisis descriptivo.
 
